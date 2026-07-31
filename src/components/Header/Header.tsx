@@ -23,7 +23,7 @@ const Header: FC<HeaderProps> = ({ title, subtitle }) => {
   return (
     <header>
       {/* Título principal, siempre presente porque "title" es obligatorio */}
-      <h1>{title}</h1>
+      <div>{title}</div>
 
       {/* Renderizado condicional: solo se muestra si "subtitle" existe.
           El "&&" es un patrón común en React: si subtitle es undefined o "",
