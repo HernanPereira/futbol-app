@@ -9,5 +9,6 @@ export default defineConfig({
     globals: true,          // permite usar describe/it/expect sin importarlos
     environment: 'jsdom',   // simula el navegador
     setupFiles: './src/setupTests.ts', // archivo de configuración global de tests
+    reporters: ['verbose'],
   },
 })
